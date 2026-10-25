@@ -1,0 +1,34 @@
+body{
+    font-family: sans-serif, Calibri; 
+    text-align: justify;
+}
+
+div{
+    margin-bottom: 30px;
+}
+
+.read-books-after-first-click{
+    background-color: #1F4D3A;
+    color: #F3EAD3;
+}
+
+.read-books-after-second-click{
+    background-color: #F3EAD3;
+    color: #1F4D3A;
+}
+
+.view-films-after-first-click{
+    background-color: rgb(234, 152, 29);
+    color: black;
+}
+
+.view-films-after-second-click{
+    background-color: black;
+    color: rgb(234, 152, 29);
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
